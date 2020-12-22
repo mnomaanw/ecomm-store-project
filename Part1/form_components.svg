@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="bg" x="382.5" y="140.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-2" x="874.5" y="163.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-3" x="382.5" y="252.5" width="468" height="306" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-3"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-4" x="858.5" y="286.5" width="743" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-4"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-5" x="382.5" y="855.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-5"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-6" x="382.5" y="968.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-6"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-7" x="858.5" y="403.5" width="743" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-7"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-8" x="382.5" y="43.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-8"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="bg-9" x="874.5" y="40.5" width="468" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-9"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" clip-path="url(#clip-Web_1920_3)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="textfield_placeholder" data-name="textfield/placeholder" transform="translate(396.018 140.881)">
+      <g transform="matrix(1, 0, 0, 1, -396.02, -140.88)" filter="url(#bg)">
+        <rect id="bg-10" data-name="bg" width="441" height="70" rx="5" transform="translate(396 141)" fill="#fff"/>
+      </g>
+      <text id="Typed_Text" data-name="Typed Text" transform="translate(31.982 41.119)" fill="#454f63" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Typed Text</tspan></text>
+    </g>
+    <g id="textfield_placeholder-2" data-name="textfield/placeholder" transform="translate(888.175 163.803)">
+      <g transform="matrix(1, 0, 0, 1, -888.18, -163.8)" filter="url(#bg-2)">
+        <g id="bg-11" data-name="bg" transform="translate(888 164)" fill="#a1a9b9" stroke="#a1a9b9" stroke-width="2" opacity="0.25">
+          <rect width="441" height="70" rx="5" stroke="none"/>
+          <rect x="1" y="1" width="439" height="68" rx="4" fill="none"/>
+        </g>
+      </g>
+      <text id="Disabled" transform="translate(32.825 41.197)" fill="#a1a9b9" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Disabled</tspan></text>
+    </g>
+    <g id="textfield_placeholder-3" data-name="textfield/placeholder" transform="translate(396.018 252.796)">
+      <g transform="matrix(1, 0, 0, 1, -396.02, -252.8)" filter="url(#bg-3)">
+        <rect id="bg-12" data-name="bg" width="441" height="279" rx="5" transform="translate(396 253)" fill="#fff"/>
+      </g>
+      <text id="Placeholder..." transform="translate(31.982 41.204)" fill="#a1a9b9" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Placeholder...</tspan></text>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(795.137 622.251)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="291" height="89" transform="translate(-0.137 -0.251)" fill="#3497fd"/>
+      <text id="High_Priority_Button" data-name="High Priority Button" transform="translate(17.863 52.749)" fill="#fff" font-size="29" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">High Priority Button</tspan></text>
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(1129.534 622.251)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" width="292" height="89" transform="translate(0.465 -0.251)" fill="#a1a9b9" opacity="0.25"/>
+      <text id="Disabled_Button" data-name="Disabled Button" transform="translate(41.466 52.749)" fill="#a1a9b9" font-size="29" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">Disabled Button</tspan></text>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(444.559 622.251)">
+      <path id="Path_4" data-name="Path 4" d="M0,0H292.156V88.67H0Z" transform="translate(0 0)" fill="#454f63"/>
+      <text id="Regular_Button" data-name="Regular Button" transform="translate(49.441 52.749)" fill="#fff" font-size="29" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">Regular Button</tspan></text>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(871.995 286.505)">
+      <g id="textfield_search_filled" data-name="textfield/search/filled" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -871.99, -286.51)" filter="url(#bg-4)">
+          <rect id="bg-13" data-name="bg" width="716" height="70" rx="12" transform="translate(872 287)" fill="#fff"/>
+        </g>
+        <text id="Search" transform="translate(43.005 41.495)" fill="#a1a9b9" font-size="21" font-family="Gibson-SemiBold, Gibson" font-weight="600"><tspan x="0" y="0">Search</tspan></text>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(652.614 24.271)">
+        <rect id="path" width="21.574" height="4.719" rx="1" transform="translate(4.828 2.839) rotate(45)" fill="#454f63"/>
+        <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0.391 0.224)" fill="#fff" stroke="#454f63" stroke-width="3">
+          <circle cx="8" cy="8" r="8" stroke="none"/>
+          <circle cx="8" cy="8" r="6.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(396.018 855.52)">
+      <g id="textfield_placeholder-4" data-name="textfield/placeholder" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -396.02, -855.52)" filter="url(#bg-5)">
+          <rect id="bg-14" data-name="bg" width="441" height="70" rx="5" transform="translate(396 856)" fill="#fff"/>
+        </g>
+        <text id="Dropdown" transform="translate(53.982 41.48)" fill="#454f63" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Dropdown</tspan></text>
+      </g>
+      <path id="union" d="M1,17.682a1,1,0,0,1-1-1v-1.84a1,1,0,0,1,1-1H13.842V1a1,1,0,0,1,1-1h1.84a1,1,0,0,1,1,1V16.557a1.239,1.239,0,0,1-1.125,1.125Z" transform="translate(400.978 22.922) rotate(45)" fill="#454f63"/>
+      <rect id="divider" width="1" height="46" rx="0.5" transform="translate(362.982 12.48)" fill="#f4f4f6"/>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="translate(396.018 968.784)">
+      <g id="textfield_placeholder-5" data-name="textfield/placeholder" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -396.02, -968.78)" filter="url(#bg-6)">
+          <rect id="bg-15" data-name="bg" width="441" height="70" rx="5" transform="translate(396 969)" fill="#e7e9ed"/>
+        </g>
+        <text id="Dropdown-2" data-name="Dropdown" transform="translate(53.982 41.216)" fill="#a1a9b9" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Dropdown</tspan></text>
+      </g>
+      <path id="union-2" data-name="union" d="M1,17.682a1,1,0,0,1-1-1v-1.84a1,1,0,0,1,1-1H13.842V1a1,1,0,0,1,1-1h1.84a1,1,0,0,1,1,1V16.557a1.239,1.239,0,0,1-1.125,1.125Z" transform="translate(400.978 22.922) rotate(45)" fill="#a1a9b9"/>
+      <rect id="divider-2" data-name="divider" width="1" height="46" rx="0.5" transform="translate(362.982 12.216)" fill="#f4f4f6"/>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(871.995 403.814)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 0)">
+        <g id="textfield_search_filled-2" data-name="textfield/search/filled">
+          <g transform="matrix(1, 0, 0, 1, -871.99, -403.81)" filter="url(#bg-7)">
+            <rect id="bg-16" data-name="bg" width="716" height="70" rx="12" transform="translate(872 404)" fill="#fff"/>
+          </g>
+          <rect id="divider-3" data-name="divider" width="1" height="46" rx="0.5" transform="translate(88.006 12.186)" fill="#f4f4f6"/>
+          <text id="Typed_Text-2" data-name="Typed Text" transform="translate(129.005 41.186)" fill="#454f63" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Typed Text</tspan></text>
+        </g>
+        <g id="Group_13-2" data-name="Group 13" transform="translate(652.614 24.271)">
+          <rect id="path-2" data-name="path" width="21.574" height="4.719" rx="1" transform="translate(4.828 2.839) rotate(45)" fill="#454f63"/>
+          <g id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(0.391 -0.085)" fill="#fff" stroke="#454f63" stroke-width="3">
+            <circle cx="8" cy="8" r="8" stroke="none"/>
+            <circle cx="8" cy="8" r="6.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="ico" transform="translate(34.653 25.117)">
+        <path id="union-3" data-name="union" d="M9.222,19.7,2.179,12.652a1.008,1.008,0,0,1-.107-.093L.149,10.636a1.017,1.017,0,0,1,0-1.428L2.072,7.286a1.009,1.009,0,0,1,.1-.091L9.222.149a1,1,0,0,1,1.414,0L12.56,2.071a1,1,0,0,1,0,1.415l-4.1,4.1H22.327a1,1,0,0,1,1,1V11.3a1,1,0,0,1-1,1H8.5l4.058,4.058a1,1,0,0,1,0,1.414L10.636,19.7a1,1,0,0,1-1.414,0Z" transform="translate(0 0)" fill="#454f63"/>
+      </g>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(880.085 855.52)">
+      <g id="Group_22" data-name="Group 22" transform="translate(0 0)">
+        <rect id="Rectangle_7-3" data-name="Rectangle 7" width="241" height="70" transform="translate(-0.085 0.48)" fill="#3497fd"/>
+        <text id="Add_to_Cart" data-name="Add to Cart" transform="translate(95.915 40.48)" fill="#fff" font-size="22" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">Add to Cart</tspan></text>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(16.335 17.219)">
+        <path id="Path_2" data-name="Path 2" d="M14.788-20.223v4.538C14.788-7.558,13.4-.97,4.1-.97h-22.99c-3.321,0-6.014-2.353-6.014-5.255,0,0,.995-9,0-14.714s-3.979-8.144-3.979-8.144H-29.5s-10.937-.082-11.418-.107a.789.789,0,0,1-.651-.52v-1.737a.834.834,0,0,1,.871-.747c.835-.046,13.221,0,13.221,0a1.4,1.4,0,0,1,.93.341c.309.347,7.121,10.915,7.121,10.915l33.7,0A.8.8,0,0,1,14.788-20.223Z" transform="translate(41.566 32.215)" fill="#fff"/>
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="1.596" cy="2.341" rx="1.596" ry="2.341" transform="matrix(0.875, 0.485, -0.485, 0.875, 23.058, 30.877)" fill="#fff"/>
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="1.596" cy="2.341" rx="1.596" ry="2.341" transform="matrix(0.875, 0.485, -0.485, 0.875, 43.066, 30.877)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="textfield_placeholder-6" data-name="textfield/placeholder" transform="translate(396.018 43.798)">
+      <g transform="matrix(1, 0, 0, 1, -396.02, -43.8)" filter="url(#bg-8)">
+        <rect id="bg-17" data-name="bg" width="441" height="70" rx="5" transform="translate(396 44)" fill="#fff"/>
+      </g>
+      <text id="Placeholder...-2" data-name="Placeholder..." transform="translate(31.982 41.202)" fill="#a1a9b9" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">Placeholder...</tspan></text>
+    </g>
+    <g id="textfield_placeholder-7" data-name="textfield/placeholder" transform="translate(888.175 41.101)">
+      <g transform="matrix(1, 0, 0, 1, -888.18, -41.1)" filter="url(#bg-9)">
+        <g id="bg-18" data-name="bg" transform="translate(888 41)" fill="#fff" stroke="#ff5e5e" stroke-width="2">
+          <rect width="441" height="70" rx="5" stroke="none"/>
+          <rect x="1" y="1" width="439" height="68" rx="4" fill="none"/>
+        </g>
+      </g>
+      <text id="ERROR" transform="translate(32.825 41.899)" fill="#454f63" font-size="20" font-family="Gibson-SemiBold, Gibson" font-weight="600" letter-spacing="0.02em"><tspan x="0" y="0">ERROR</tspan></text>
+    </g>
+  </g>
+</svg>

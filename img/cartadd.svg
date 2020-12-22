@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="30" viewBox="0 0 103 30">
+  <g id="Group_24" data-name="Group 24" transform="translate(-104.293 -239.81)">
+    <g id="Group_22" data-name="Group 22" transform="translate(104.105 239.339)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="103" height="30" transform="translate(0.187 0.471)" fill="#3497fd"/>
+      <text id="Add_to_Cart" data-name="Add to Cart" transform="translate(41.187 18.471)" fill="#fff" font-size="10" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">Add to Cart</tspan></text>
+    </g>
+    <g id="Group_23" data-name="Group 23" transform="translate(111.282 247.178)">
+      <path id="Path_2" data-name="Path 2" d="M-17.454-27.084v1.942c0,3.477-.594,6.3-4.572,6.3h-9.837A2.427,2.427,0,0,1-34.436-21.1a28.5,28.5,0,0,0,0-6.3,5.912,5.912,0,0,0-1.7-3.485H-36.4s-4.68-.035-4.885-.046a.338.338,0,0,1-.279-.223v-.743a.357.357,0,0,1,.373-.32c.357-.02,5.657,0,5.657,0a.6.6,0,0,1,.4.146c.132.148,3.047,4.67,3.047,4.67l14.417,0A.341.341,0,0,1-17.454-27.084Z" transform="translate(41.566 32.215)" fill="#fff"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="0.683" cy="1.002" rx="0.683" ry="1.002" transform="matrix(0.875, 0.485, -0.485, 0.875, 9.866, 13.211)" fill="#fff"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="0.683" cy="1.002" rx="0.683" ry="1.002" transform="matrix(0.875, 0.485, -0.485, 0.875, 18.426, 13.211)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

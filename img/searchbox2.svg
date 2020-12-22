@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="558" height="79" viewBox="0 0 558 79">
+  <defs>
+    <filter id="bg" x="0" y="0" width="558" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-color="#e9e9e9"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-889.5 -223.5)">
+    <g id="textfield_search_filled" data-name="textfield/search/filled" transform="translate(903 224)">
+      <g transform="matrix(1, 0, 0, 1, -13.5, -0.5)" filter="url(#bg)">
+        <rect id="bg-2" data-name="bg" width="531" height="52" rx="12" transform="translate(13.5 0.5)" fill="#fff"/>
+      </g>
+      <text id="Search" transform="translate(32 31)" fill="#a1a9b9" font-size="16" font-family="Gibson-SemiBold, Gibson" font-weight="600"><tspan x="0" y="0">Search</tspan></text>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(1243 187)">
+      <rect id="path" width="16" height="3.5" rx="1" transform="translate(147.581 57.106) rotate(45)" fill="#454f63"/>
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(144 55)" fill="#fff" stroke="#454f63" stroke-width="3">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="4.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
