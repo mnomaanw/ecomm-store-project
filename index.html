@@ -12,13 +12,11 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="index.html" class="logo"><img style="width: 150px;height: 150px;" src="img/logo.svg" alt="logo"><!-- Site logo --></a>
+      <a href="index.html" class="logo"><img  src="img/logo.svg" alt="logo"><!-- Site logo --></a>
 
       <!-- Navigation menu and toggle button (non-functional) -->
-      <button type="button" class="nav-toggle">
-        <span class="material-icons">menu</span>
-      </button>
-      <nav aria-label="Primary" class="navigation">
+      <input type="image" src="img/menu.svg" class="nav-toggle" alt="menu">
+          <nav aria-label="Primary" class="navigation">
         <ul class="menu">
           <li><a href="#">Shop</a>
             <ul class="submenu">
@@ -34,15 +32,15 @@
 
       <!-- Search for a product (non-functional) -->
       <form class="search">
-        <label>Search
+        <label>
           <input type="text" placeholder="Search..." name="find" id="find">
         </label>
-        <img src="img/search.svg" alt="search">
+        <img src="img/search.svg" alt="search" id="search">
       </form>
 
       <!-- Additional links -->
       <ul class="your-products">
-        <li><a href="#"><img src="img/fav.svg" alt="favorite"></a></li>
+        <li><a href="#"><img src="img/favwhite.svg" alt="favorite"></a></li>
         <li><a href="#"><img src="img/cart.svg" alt="cart"></a></li>
       </ul>
     </header>
@@ -60,38 +58,38 @@
           <fieldset>
             <legend>Brands</legend>
             <ul class="filter-list">
-              <li><input type="checkbox" name="colour" value="black" id="goog"> <label for="black"><img src="img/checkbox.svg" alt="check">Google</label></li>
-              <li><input type="checkbox" name="colour" value="white" id="sam"> <label for="white"><img src="img/checkbox.svg" alt="check">Samsung</label></li>
-              <li><input type="checkbox" name="colour" value="grey" id="appl"> <label for="grey"><img src="img/checkbox.svg" alt="check">Apple</label></li>
-              <li><input type="checkbox" name="colour" value="red" id="op"> <label for="red"><img src="img/checkbox.svg" alt="check">OnePlus</label></li>
-              <li><input type="checkbox" name="colour" value="blue" id="asus"> <label for="blue"><img src="img/checkbox.svg" alt="check">Asus</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="black" id="goog"> <label for="black"><img src="img/checkbox.svg" alt="check">Google</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="white" id="sam"> <label for="white"><img src="img/checkbox.svg" alt="check">Samsung</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="grey" id="appl"> <label for="grey"><img src="img/checkbox.svg" alt="check">Apple</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="red" id="op"> <label for="red"><img src="img/checkbox.svg" alt="check">OnePlus</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="blue" id="asus"> <label for="blue"><img src="img/checkbox.svg" alt="check">Asus</label></li>
             </ul>
           </fieldset>
           <fieldset>
             <legend>Colour</legend>
             <ul class="filter-list">
-              <li><input type="checkbox" name="colour" value="black" id="black"> <label for="black"><img src="img/checkbox.svg" alt="check">Black</label></li>
-              <li><input type="checkbox" name="colour" value="white" id="white"> <label for="white"><img src="img/checkbox.svg" alt="check">White</label></li>
-              <li><input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"><img src="img/checkbox.svg" alt="check">Grey</label></li>
-              <li><input type="checkbox" name="colour" value="red" id="red"> <label for="red"><img src="img/checkbox.svg" alt="check">Red</label></li>
-              <li><input type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"><img src="img/checkbox.svg" alt="check">Blue</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="black" id="black"> <label for="black"><img src="img/checkbox.svg" alt="check">Black</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="white" id="white"> <label for="white"><img src="img/checkbox.svg" alt="check">White</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="grey" id="grey"> <label for="grey"><img src="img/checkbox.svg" alt="check">Grey</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="red" id="red"> <label for="red"><img src="img/checkbox.svg" alt="check">Red</label></li>
+              <li><input class="hidden" type="checkbox" name="colour" value="blue" id="blue"> <label for="blue"><img src="img/checkbox.svg" alt="check">Blue</label></li>
             </ul>
           </fieldset>
           <fieldset>
             <legend>Screen Sizes</legend>
             <ol class="filter-list">
-              <li><input type="checkbox" name="size" value="xs" id="xs"> <label for="xs"><img src="img/checkbox.svg" alt="check">4.5"</label></li>
-              <li><input type="checkbox" name="size" value="sm" id="sm"> <label for="sm"><img src="img/checkbox.svg" alt="check">5"</label></li>
-              <li><input type="checkbox" name="size" value="md" id="md"> <label for="md"><img src="img/checkbox.svg" alt="check">5.5"</label></li>
-              <li><input type="checkbox" name="size" value="lg" id="lg"> <label for="lg"><img src="img/checkbox.svg" alt="check">6"</label></li>
-              <li><input type="checkbox" name="size" value="xl" id="xl"> <label for="xl"><img src="img/checkbox.svg" alt="check">6.5"</label></li>
+              <li><input class="hidden" type="checkbox" name="size" value="xs" id="xs"> <label for="xs"><img src="img/checkbox.svg" alt="check">4.5"</label></li>
+              <li><input class="hidden" type="checkbox" name="size" value="sm" id="sm"> <label for="sm"><img src="img/checkbox.svg" alt="check">5"</label></li>
+              <li><input class="hidden" type="checkbox" name="size" value="md" id="md"> <label for="md"><img src="img/checkbox.svg" alt="check">5.5"</label></li>
+              <li><input class="hidden" type="checkbox" name="size" value="lg" id="lg"> <label for="lg"><img src="img/checkbox.svg" alt="check">6"</label></li>
+              <li><input class="hidden" type="checkbox" name="size" value="xl" id="xl"> <label for="xl"><img src="img/checkbox.svg" alt="check">6.5"</label></li>
             </ol>
           </fieldset>
           <fieldset>
             <legend>Ratings (above)</legend>
             <ol class="filter-list">
               <li>
-                <input type="radio" name="rating" value="4" id="aboveFour">
+                <input class="hidden" type="radio" name="rating" value="4" id="aboveFour">
                 <label for="aboveFour">
                   <img src="img/radio.svg" alt="radio">
                   <img class="svg" src="img/starfull.svg" alt="star">
@@ -102,7 +100,7 @@
                 </label>
               </li>
               <li>
-                <input type="radio" name="rating" value="3" id="aboveThree">
+                <input class="hidden" type="radio" name="rating" value="3" id="aboveThree">
                 <label for="aboveThree">
                   <img src="img/radio.svg" alt="radio">
                   <img class="svg" src="img/starfull.svg" alt="star">
@@ -113,7 +111,7 @@
                  </label>
               </li>
               <li>
-                <input type="radio" name="rating" value="2" id="aboveTwo">
+                <input class="hidden" type="radio" name="rating" value="2" id="aboveTwo">
                 <label for="aboveTwo">
                   <img src="img/radio.svg" alt="radio">
                   <img class="svg" src="img/starfull.svg" alt="star">
@@ -124,7 +122,7 @@
                 </label>
               </li>
               <li>
-                <input type="radio" name="rating" value="1" id="aboveOne">
+                <input class="hidden" type="radio" name="rating" value="1" id="aboveOne">
                 <label for="aboveOne">
                   <img src="img/radio.svg"  alt="radio">
                   <img class="svg" src="img/starfull.svg" alt="star">
@@ -152,39 +150,45 @@
 
         <!-- Product 1 -->
         <article class="product">
+          <div class="listing">
           <header>
-            <img src="img/p5b.jpg" alt="Pixel 5">
+            <img src="img/p5b.jpg" alt="Pixel 5" class="phone">
+            <div class="model_price">
             <h3>Pixel 5</h3>
             <data value="649"><del>$699.00</del> <ins>$649.00</ins></data>
+            </div>
             <p>Offers you day one updates and purest form of Android</p>
-            <dl>
-              <dt>Rating</dt>
+            <div class="rates">
+              <dl>
+              <dt class="rate">Rating</dt>
               <dd>4.5 
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starhalf.svg" alt="star half"> 
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starhalf.svg" alt="star half">
               </dl>
             <a href="#"><img src="img/seemore.svg" class="more" alt="more"></a>
+          </div>
           </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
-              <ul>
+              <ul class="options">
                 <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
                 <li><label><input type="radio" name="colour" value="gr"> Green</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Storage</legend>
-              <ol>
+              <ol class="options">
                 <li><label><input type="radio" name="size" value="64"> 64GB</label></li>
                 <li><label><input type="radio" name="size" value="128"> 128GB</label></li>
                 <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
               </ol>
             </fieldset>
           </form>
+        </div>
           <footer>
             <input type="image" src="img/cartadd.svg" alt="add to cart">
             <input type="image" src="img/fav.svg" alt="add to favorite">
@@ -194,32 +198,39 @@
         <!-- Product 2 -->
         <article class="product">
           <header>
-            <img src="img/20bfront.jpg" alt="Note 20 Ultra">
-            <h3>Note 20 Ultra</h3>
-            <data value="1299"><del>$1499.00</del> <ins>$1299.00</ins></data>
-            <p>Take your productivity to a whole new level with the S-Pen powered Galaxy Note 20 Ultra</p>
-            <dl>
-              <dt>Rating</dt>
+            <img src="img/20bfront.jpg" alt="Note 20 Ultra" class="phone">
+            <div class="model_price"> 
+              
+              <h3>Note 20 Ultra</h3>
+              <data value="1299"><del>$1499.00</del> <ins>$1299.00</ins></data>
+            </div>
+              <p>Take your productivity to a whole new level with the S-Pen powered Galaxy Note 20 Ultra</p>
+            <div class="rates">
+
+          <dl>
+              <dt class="rate">Rating</dt>
               <dd>4.0 
-                <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starempty.svg" alt="star blank"> 
+                <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starempty.svg" alt="star blank"> 
               </dl>
+             
               <a href="#"><img src="img/seemore.svg" class="more" alt="more"></a>
+            </div>
             </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
-              <ul>
+              <ul class="options">
                 <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
                 <li><label><input type="radio" name="colour" value="br"> Bronze</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
-              <ol>
+              <ol class="options">
                 <li><label><input type="radio" name="size" value="128"> 128GB</label></li>
                 <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
                 <li><label><input type="radio" name="size" value="512"> 512GB</label></li>
@@ -235,32 +246,38 @@
         <!-- Product 3 -->
         <article class="product">
           <header>
-            <img src="img/i12.jpg" alt="iPhone 12 Pro">
-            <h3>iPhone 12 Pro</h3>
-            <data value="1099"><del>$1199.00</del> <ins>$1099.00</ins></data>
+            <img src="img/i12.jpg" alt="iPhone 12 Pro" class="phone">
+            <div class="model_price">
+
+              <h3>iPhone 12 Pro</h3>
+              <data value="1099"><del>$1199.00</del> <ins>$1099.00</ins></data>
+            </div>
             <p>The all new iPhone powered by A14</p>
+            
+            <div class="rates">
             <dl>
-              <dt>Rating</dt>
+              <dt class="rate">Rating</dt>
               <dd>4.0 
-                <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starempty.svg" alt="star blank"> 
+                <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starempty.svg" alt="star blank"> 
               </dl>
               <a href="#"><img src="img/seemore.svg" class="more" alt="more"></a>
+            </div>
             </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
-              <ul>
+              <ul class="options">
                 <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
                 <li><label><input type="radio" name="colour" value="wh"> White</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
-              <ol>
+              <ol class="options">
                 <li><label><input type="radio" name="size" value="128"> 128GB</label></li>
                 <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
                 <li><label><input type="radio" name="size" value="512"> 512GB</label></li>
@@ -276,32 +293,38 @@
         <!-- Product 4 -->
         <article class="product">
           <header>
-            <img src="img/8pro.jpg" alt="OnePlus 8 Pro">
-            <h3>OnePlus 8 Pro</h3>
-            <data value="899"><del>$999.00</del> <ins>$899.00</ins></data>
+            <img src="img/8pro.jpg" alt="OnePlus 8 Pro" class="phone">
+            <div class="model_price">
+
+              <h3>OnePlus 8 Pro</h3>
+              <data value="899"><del>$999.00</del> <ins>$899.00</ins></data>
+            </div>
             <p>120Hz display, 30W Charging, IP68</p>
+            
+            <div class="rates">
             <dl>
-              <dt>Rating</dt>
+              <dt class="rate">Rating</dt>
               <dd>4.0 
-                <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starempty.svg" alt="star blank"> 
+                <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starempty.svg" alt="star blank"> 
               </dl>
               <a href="#"><img src="img/seemore.svg" class="more" alt="more"></a>
+            </div>
             </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
-              <ul>
+              <ul class="options">
                 <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
                 <li><label><input type="radio" name="colour" value="blu"> Blue</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
-              <ol>
+              <ol class="options">
                 <li><label><input type="radio" name="size" value="128"> 128GB</label></li>
                 <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
                 <li><label><input type="radio" name="size" value="512"> 512GB</label></li>
@@ -317,32 +340,38 @@
         <!-- Product 5 -->
         <article class="product">
           <header>
-            <img src="img/8t.jpg" alt="OnePlus 8T">
-            <h3>OnePlus 8T</h3>
-                  <data value="599"><del>$649.00</del> <ins>599.00</ins></data>
-                  <p>Flagship features for fraction of a price. Comes with 65W Fast Charging with Ultra Smooth scrolling.</p>
+            <img src="img/8t.jpg" alt="OnePlus 8T" class="phone">
+            <div class="model_price">
+
+              <h3>OnePlus 8T</h3>
+              <data value="599"><del>$649.00</del> <ins>599.00</ins></data>
+            </div>
+              <p>Flagship features for fraction of a price. Comes with 65W Fast Charging with Ultra Smooth scrolling.</p>
+                  
+                  <div class="rates">
                   <dl>
-                    <dt>Rating</dt>
+                    <dt class="rate">Rating</dt>
                     <dd>4.5
-                      <img class="svg" src="img/starfull.svg" alt="star">
-                        <img class="svg" src="img/starfull.svg" alt="star">
-                        <img class="svg" src="img/starfull.svg" alt="star">
-                        <img class="svg" src="img/starfull.svg" alt="star">
-                        <img class="svg" src="img/starhalf.svg" alt="star half"> 
+                      <img class="star" src="img/starfull.svg" alt="star">
+                        <img class="star" src="img/starfull.svg" alt="star">
+                        <img class="star" src="img/starfull.svg" alt="star">
+                        <img class="star" src="img/starfull.svg" alt="star">
+                        <img class="star" src="img/starhalf.svg" alt="star half"> 
                     </dl>
                     <a href="#"><img src="img/seemore.svg" class="more" alt="more"></a>
+                  </div>
                   </header>
                 <form>
                   <fieldset>
                     <legend>Colours</legend>
-                    <ul>
+                    <ul class="options">
                       <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
                       <li><label><input type="radio" name="colour" value="aq"> Aqua</label></li>
                     </ul>
                   </fieldset>
                   <fieldset>
                     <legend>Sizes</legend>
-                    <ol>
+                    <ol class="options">
                       <li><label><input type="radio" name="size" value="128"> 128GB</label></li>
                       <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
                       <li><label><input type="radio" name="size" value="512"> 512GB</label></li>
@@ -358,31 +387,36 @@
         <!-- Product 6 -->
         <article class="product">
           <header>
-            <img src="img/rog3.jpg" alt="ROG Phone 3">
-            <h3>ROG Phone 3</h3>
-            <data value="799"><del>$899.00</del> <ins>$799.00</ins></data>
+            <img src="img/rog3.jpg" alt="ROG Phone 3" class="phone">
+            <div class="model_price">
+
+              <h3>ROG Phone 3</h3>
+              <data value="799"><del>$899.00</del> <ins>$799.00</ins></data>
+            </div>
             <p>Powered by Snapdragon 865+ and liquid cooling, enjoy hours of high performance gameplay.</p>
+            <div class="rates">
             <dl>
-              <dt>Rating</dt>
+              <dt class="rate">Rating</dt>
               <dd>4.0 
-                <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starfull.svg" alt="star">
-                  <img class="svg" src="img/starempty.svg" alt="star blank"> 
+                <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starfull.svg" alt="star">
+                  <img class="star" src="img/starempty.svg" alt="star blank"> 
               </dl>
               <a href="#"><img src="img/seemore.svg" class="more"  alt="more"></a>
+            </div>
             </header>
           <form>
             <fieldset>
               <legend>Colours</legend>
-              <ul>
+              <ul class="options">
                 <li><label><input type="radio" name="colour" value="bl"> Black</label></li>
               </ul>
             </fieldset>
             <fieldset>
               <legend>Sizes</legend>
-              <ol>
+              <ol class="options">
                 <li><label><input type="radio" name="size" value="256"> 256GB</label></li>
                 <li><label><input type="radio" name="size" value="512"> 512GB</label></li>
                 <li><label><input type="radio" name="size" value="1024"> 1TB</label></li>
@@ -399,7 +433,7 @@
       <nav aria-label="Pagination" class="pagination">
         <p>1-6 of 23 products found</p>
         <ol class="pages">
-          <li><a href="#" aria-label="Current Page, Page 1" aria-current="true">1</a></li>
+          <li><a href="#" aria-label="Current Page, Page 1" aria-current="true" class="active">1</a></li>
           <li><a href="#" aria-label="Page 2">2</a></li>
           <li><a href="#" aria-label="Page 3">3</a></li>
           <li><a href="#" aria-label="Page 4">4</a></li>
